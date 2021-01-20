@@ -35,7 +35,7 @@ def player_details(request, pk):
 @api_view(["GET"])
 def coach_team_list(request, pk):
     """
-       Retrieve, certain player detail.
+       Retrieve, certain coach team detail.
     """
     try:
         coach = Coach.objects.get(pk=pk)
@@ -90,7 +90,7 @@ def team_data(request, pk):
     """
 
     try:
-        team = Team.objects.get(pk=pk)
+        team = Team.objects.get(pk=1)
 
     except team.DoesNotExist:
         return HttpResponse(status=404)

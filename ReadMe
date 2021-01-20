@@ -26,8 +26,8 @@ Url to access data
 
 http://127.0.0.1:8000/admin/
 http://127.0.0.1:8000/game-api/v1/games/
-http://127.0.0.1:8000/game-api/players?avg_score=90
-http://127.0.0.1:8000/game-api/v1/coaches/{coach_d}/teams/players
+http://127.0.0.1:8000/game-api/players/{playerId}
+http://127.0.0.1:8000/game-api/v1/coaches/{coach_d}/teams/players?avg_score={score}
 http://127.0.0.1:8000/game-api/v1/coaches/{coach_d}/teams
 http://127.0.0.1:8000/game-api/v1/teams
 http://127.0.0.1:8000/game-api/v1/teams/{teamId}
