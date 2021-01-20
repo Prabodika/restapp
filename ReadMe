@@ -1,0 +1,36 @@
+python version=3.7.9
+
+superuser username password
+user: test
+pass: test@123
+--------------------------------------------------------
+please add the details to the database using below url
+--------------------------------------------------------
+
+http://127.0.0.1:8000/admin/
+
+Role
+User
+Teams
+Player
+Coach
+Admin
+Game
+GameTeamScore
+PlayerGameScore
+UserAudit
+
+----------------------------------------------------------
+Url to access data
+----------------------------------------------------------
+
+http://127.0.0.1:8000/admin/
+http://127.0.0.1:8000/game-api/v1/games/
+http://127.0.0.1:8000/game-api/players?avg_score=90
+http://127.0.0.1:8000/game-api/v1/coaches/{coach_d}/teams/players
+http://127.0.0.1:8000/game-api/v1/coaches/{coach_d}/teams
+http://127.0.0.1:8000/game-api/v1/teams
+http://127.0.0.1:8000/game-api/v1/teams/{teamId}
+
+command to run server
+python manage.py runserver
